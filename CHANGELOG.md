@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/ahmedsweng/semantic-release-with-nextjs/compare/v1.0.1...v1.1.0) (2024-09-01)
+
+
+### Features
+
+* empty root page ([43f2a6d](https://github.com/ahmedsweng/semantic-release-with-nextjs/commit/43f2a6dd4bde42d36c1782d81616a33dce9e0c32))
+* empty root page ([01935eb](https://github.com/ahmedsweng/semantic-release-with-nextjs/commit/01935eb77e872265026ba555a1e555a7dab40b78))
+
 ## [1.0.1](https://github.com/ahmedsweng/semantic-release-with-nextjs/compare/v1.0.0...v1.0.1) (2024-09-01)
 
 
