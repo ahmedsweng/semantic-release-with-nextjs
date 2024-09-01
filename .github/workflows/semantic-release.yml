@@ -1,9 +1,12 @@
-name: Release Please
+name: Release
 
 on:
   pull_request:
     types:
       - closed
+    branches:
+      - main
+      - dev
   push:
     branches:
       - stage
@@ -15,15 +18,19 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: "lts/*"
+
       - name: Install Dependencies
         run: yarn install
+
       - name: Run Semantic Release
+        if: github.event.pull_request.merged == true || github.ref == 'refs/heads/stage'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
