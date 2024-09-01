@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/ahmedsweng/semantic-release-with-nextjs/compare/v1.0.0...v1.0.1) (2024-09-01)
+
+
+### Bug Fixes
+
+* rebasing ([74753bf](https://github.com/ahmedsweng/semantic-release-with-nextjs/commit/74753bf9a672143a451799b92095627b602c61d0))
+
 # 1.0.0 (2024-09-01)
 
 
