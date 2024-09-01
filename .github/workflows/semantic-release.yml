@@ -1,22 +1,13 @@
-name: Release
+name: Build And Release
 
 on:
-  pull_request:
-    types:
-      - closed
+  push:
     branches:
       - main
       - stage
-  push:
-    branches:
-      - stage
-
-permissions:
-  contents: write
-  pull-requests: write
 
 jobs:
-  release:
+  build_then_release:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,9 +19,11 @@ jobs:
 
       - name: Install Dependencies
         run: yarn install
-
+      - name: Run tests
+        run: yarn test
+      - name: Lint
+        run: yarn lint
       - name: Run Semantic Release
-        if: github.event.pull_request.merged == true || github.ref == 'refs/heads/stage'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
