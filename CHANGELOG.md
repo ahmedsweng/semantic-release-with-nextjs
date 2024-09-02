@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/ahmedsweng/semantic-release-with-nextjs/compare/v1.2.0...v1.2.1) (2024-09-02)
+
+
+### Bug Fixes
+
+* add permissions to sr ([537af30](https://github.com/ahmedsweng/semantic-release-with-nextjs/commit/537af308f795898203079298d3ad391566ec80fe))
+
 # [1.2.0](https://github.com/ahmedsweng/semantic-release-with-nextjs/compare/v1.1.0...v1.2.0) (2024-09-02)
 
 
