@@ -6,6 +6,10 @@ on:
       - main
       - stage
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   build_then_release:
     runs-on: ubuntu-latest
