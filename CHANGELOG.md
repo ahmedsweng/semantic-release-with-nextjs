@@ -1,3 +1,17 @@
+## [1.2.1](https://github.com/ahmedsweng/semantic-release-with-nextjs/compare/v1.2.0...v1.2.1) (2024-09-02)
+
+
+### Bug Fixes
+
+* add permissions to sr ([537af30](https://github.com/ahmedsweng/semantic-release-with-nextjs/commit/537af308f795898203079298d3ad391566ec80fe))
+
+# [1.2.0](https://github.com/ahmedsweng/semantic-release-with-nextjs/compare/v1.1.0...v1.2.0) (2024-09-02)
+
+
+### Features
+
+* add pr-ci pipeline ([#9](https://github.com/ahmedsweng/semantic-release-with-nextjs/issues/9)) ([3fec3f5](https://github.com/ahmedsweng/semantic-release-with-nextjs/commit/3fec3f534e4a0b5e2df96b97153fc91989147625))
+
 # [1.1.0](https://github.com/ahmedsweng/semantic-release-with-nextjs/compare/v1.0.1...v1.1.0) (2024-09-01)
 
 
